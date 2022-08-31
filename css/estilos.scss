@@ -1,0 +1,85 @@
+@import "./partials/variables";
+@import "./partials/reset";
+
+.inicio_text{
+    background-color: rgba(233, 233, 233, 0.401);
+    h1{
+        font-family: $fontIni;
+    }
+}
+
+.btn {
+    background-color: none;
+    border-color: transparent;
+    color: rgb(48, 48, 48);
+    :hover {
+        background-color: rgba(128, 128, 128, 0.26);
+        border-color: transparent;
+        color: white;
+    }
+}
+
+  
+.navbar_cart {
+    background-color: transparent;
+    font-size: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6362920168) 100%);
+}
+  
+.container-fluid {
+    font-family: $fontMain
+}
+  
+.form-control {
+    background-color: transparent;
+    border-color: rgb(48, 48, 48);
+}
+
+.medios {
+    height: 25px;
+    width: 40px;
+}
+
+.container_form {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.907);
+    height: 90vh;
+}
+  
+.form_input {
+    margin: 0px;
+}
+  
+.imagen-inicio {
+    background-image: url(../img/fondo-inicio-sesion.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .navbar_bg {
+        background-color: transparent;
+        font-size: 20px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0%;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(17, 17, 17, 0.4766281513) 100%);
+        z-index: 3;
+    }
+    .navbar-brand img {
+        height: 80px;
+        width: 100px;
+        margin: 10px 4px 0 20px;
+    }
+    .nav-link {
+        color: #000 !important;
+    }
+}
+  
+.iniciar {
+    background-color: #CB997E;
+    border-color: transparent;
+}

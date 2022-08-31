@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  background-color: white;
+  color: black;
+}
+
+.container_form {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.907);
+  height: 90vh;
+}
+
+.form_input {
+  margin: 0px;
+}
+
+.imagen-inicio {
+  background-image: url(../img/fondo-inicio-sesion.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+
+.iniciar {
+  background-color: #CB997E;
+  border-color: transparent;
+}
+
+.navbar_cart {
+  background-color: transparent;
+  font-size: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6362920168) 100%);
+}
+
+.container-fluid {
+  font-family: "Akshar", sans-serif;
+}
+
+.form-control {
+  background-color: transparent;
+  border-color: rgb(48, 48, 48);
+}
+.medios {
+  height: 25px;
+  width: 40px;
+}
+
